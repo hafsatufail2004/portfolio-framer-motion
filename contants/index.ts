@@ -57,8 +57,20 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
+    name: "Shadcnui",
+    Image: "/shadcnui.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Daisyui",
+    Image: "/daisy.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Bootstrap",
+    Image: "/bootstrap.png",
     width: 80,
     height: 80,
   },
@@ -89,24 +101,28 @@ export const Socials = [
 // projects detail in project page
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
+    title: "Modern Portfolio Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    src: "/portfolio.png",
+    link:"https://protfolio-rho-two.vercel.app/"
   },
   {
     title: "Space Themed Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    src: "/acmarocket.png",
+    link:"https://acme-rockets-henna.vercel.app/"
   },
   {
-    title: "Modern Nextjs Portfolio",
+    title: "Wikirocket Website",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    src: "/wikirocket.png",
+    link:"https://wikirocket-ten.vercel.app/"
+  },
+  {
+    title: "Modren Portfolio Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/WebPortfolio.png",
-  },
-  {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    link:"/"
   },
 ];
 
